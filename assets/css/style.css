@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.buttons {
+    text-align: right;
+    padding: 10px;
+    justify-content: flex-end;
+    margin-top: 1rem;
+
+    & > a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: blue;
+        border: rgba(0, 0, 0, 0.534) solid 1px;
+        border-radius: 5px;
+        padding: 0.7rem;
+    }
+}
