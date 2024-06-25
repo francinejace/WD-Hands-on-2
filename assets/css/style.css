@@ -3,18 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .buttons {
     text-align: right;
     padding: 10px;
     justify-content: flex-end;
     margin-top: 1rem;
+}
 
-    & > a {
-        margin: 0 10px;
-        text-decoration: none;
-        color: blue;
-        border: rgba(0, 0, 0, 0.534) solid 1px;
-        border-radius: 5px;
-        padding: 0.7rem;
-    }
+.buttons > a {
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 0.7rem;
+    background: rgb(112, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.buttons > a::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+    z-index: -1;
+    background: white;
 }
