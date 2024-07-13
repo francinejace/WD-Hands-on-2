@@ -1,11 +1,12 @@
-/* EMILIA */
-/* ANYA */
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .buttons {
@@ -19,14 +20,19 @@
     position: relative;
     margin: 0 10px;
     text-decoration: none;
-    border: #36252B solid 1px;
-    border-radius: 5px;
-    padding: 0.7rem;
-    background: #36252B;
-    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem 1.5rem;
+    background: #FF4C4C;
+    color: white;
     font-weight: 700;
-    box-shadow: inset 0 0 0 4px #9352313f;
-    background-clip: padding-box;
+    box-shadow: 5px 10px 0 rgba(70, 0, 0, 0.952);
+    transition: all 0.3s ease;
+}
+
+.buttons > a:hover {
+    box-shadow: none;
+    transform: scale(1.02);
 }
 
 .background {
@@ -34,7 +40,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100dvh;
+    height: 100vh;
     object-fit: cover;
     z-index: -1;
 }
@@ -45,17 +51,34 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2rem;
-    width: 35dvw;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    font-size: 1.2rem;
-    border: 1px solid rgba(245, 245, 245, 0.212);
+    width: 40vw;
+    background: #FF4C4C;
+    box-shadow: 10px 20px 0 rgba(70, 0, 0, 0.952);
+    border-radius: 10px;
     color: white;
-    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: none;
+    transform: translate(-50%, -50%) scale(1.02);
+}
+
+.card h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #FFECEC;
+}
+
+.card p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #FFECEC;
 }
 
 .card > .source {
-    font-size: xx-small;
+    font-size: small;
+    text-align: right;
+    display: block;
+    color: #FFECEC;
 }
