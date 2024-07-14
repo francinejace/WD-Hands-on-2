@@ -92,28 +92,40 @@ WD-Hands-on-2
 |   └─ css
 |   |   └─ style.css
 |   └─ img
+|   |   └─ Anya.jpg
+|   |   └─ Buttercup.jpg
+|   |   └─ daisies.jpg
+|   |   └─ digital-standard.jpg
+|   |   └─ ecology-2.jpg
+|   |   └─ Home.jpg
+|   |   └─ iPhone.jpg
+|   |   └─ Itsuki.jpg
+|   |   └─ Kuromi.jpg
 |   |   └─ mochi-mochi.png
-|   └─ js
-|       └─ script.js
+|   |   └─ Nezuko.jpg
+|   |   └─ PHIL TOUR6IYC1u5E_400x400.jpg
 └─ pages
-|  └─ heroes
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
+|      └─ cards
+|     |   └─ assets
+|     |   |  └─ css
+|     |   |  └─ style.css
+|     |   └─ index.html
+|     └─ heroes
 |        └─ hero-1
 |     |     └─ index.html
+|     |     └─ style.css
 |        └─ hero-2
 |     |     └─ index.html
+|     |     └─ style.css
 |        └─ hero-3
 |     |     └─ index.html
+|     |     └─ style.css
 |        └─ hero-4
 |     |     └─ index.html
+|     |     └─ style.css
 |        └─ hero-5
 |     |     └─ index.html
+|     |     └─ style.css
 └─ index.html
 └─ readme.md
 ```
@@ -124,3 +136,13 @@ WD-Hands-on-2
 | Title | Purpose | Link |
 |-|-|-|
 | Mochi Mochi | Logo for the main index.html | looka.com/blog/cute-logos/ |
+| Powerpuff Girls Wiki | Hero 1 content | https://powerpuffgirls.fandom.com/wiki/Powerpuff_Girls_Wiki |
+| Hello Kitty Wiki | Hero 2 content | https://hellokitty.fandom.com/wiki/Hello_Kitty |
+| Kimetsu no Yaiba Wiki | Hero 3 content | https://kimetsu-no-yaiba.fandom.com/wiki/Kimetsu_no_Yaiba_Wiki |
+| SpyxFamily Wiki | Hero 4 content | https://spy-x-family.fandom.com/wiki/Spy_x_Family_Wiki |
+| MyAnimeList | Hero 5 content | https://myanimelist.net/character/161471/Itsuki_Nakano |
+| Demon Slayer Website | Card 1 content | https://demonslayer-anime.com/ |
+| Apple | Card 2 content | https://www.apple.com/ |
+| Department of Tourism | Card 3 content | https://beta.tourism.gov.ph/ |
+| National Geographic | Card 4 content | https://education.nationalgeographic.org/resource/ecology/ |
+| Brittanica | Card 5 content | https://www.britannica.com/plant/daisy |
